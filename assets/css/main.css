@@ -129,16 +129,13 @@ input[type="submit"]:hover {
 }
 
 
-#features-wrapper,
+
 #footer-wrapper {
 	background: linear-gradient(to right, #c4c4c4, #1f1e1e);
     padding: 20px;
 }
 
 
-.feature {
-    margin-bottom: 40px;
-}
 
 .widget {
     margin-bottom: 40px;
@@ -147,15 +144,7 @@ input[type="submit"]:hover {
 .widget:last-child {
     margin-bottom: 0; 
 }
-.box.feature {
-    background-color: #312a30;
-    border-radius: 10px ;
-    padding: 10px;
-    margin-bottom: 20px;
-    height: 450px; 
-    overflow: hidden; 
-    
-}
+
 .navbar.bg-custom {
     background-color: #312a30; 
 	
@@ -219,3 +208,33 @@ input[type="submit"]:hover {
 .error-message {
     color: rgb(201, 43, 43);
 }
+
+
+
+  /* Agrega un poco de espacio arriba de las cards */
+  .card-container-wrapper {
+    position: relative;
+  }
+  
+  /* Agrega un poco de espacio arriba de las cards */
+  #card-container {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para las flechas */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+  }
+  
+  .left-arrow {
+    left: 0;
+  }
+  
+  .right-arrow {
+    right: 0;
+  }

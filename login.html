@@ -7,57 +7,85 @@
 <html>
 
 <head>
-	<title>Verti by HTML5 UP</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Verti by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-	<a class="navbar-brand" href="index.html">LOGO</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
+    <a class="navbar-brand" href="index.html">LOGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Link</a>
-			</li>
-			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-					aria-haspopup="true" aria-expanded="false">
-					Informacion
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Ubicacion</a>
-					<a class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
-				</div>
-			</li>
-		</ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Informacion
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Ubicacion</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+        </ul>
 
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="sign up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-			</li>
-		</ul>
-	</div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="sign up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+            </li>
+        </ul>
+    </div>
 </nav>
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" style="background-color: darkgray; ;">
+                    Iniciar Sesión
+                </div>
+                <div class="card-body" style="background-color: black;">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="email" style="color: white;">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" style="color: white">Contraseña</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 
@@ -68,10 +96,12 @@
 <!-- Features -->
 <div id="features-wrapper">
     <div class="container">
-		<div class="text-center"><h1>Productor Mas Recientes</h1></div>
-		
+        <div class="text-center">
+            <h1>Productor Mas Recientes</h1>
+        </div>
+
         <div class="row">
-			
+
             <div class="col-4 col-12-medium">
                 <!-- Box -->
                 <section class="box feature">
@@ -80,17 +110,19 @@
                     </a>
                     <div class="inner">
                         <header>
+                            <img src="" alt="" height="10%" width="10%" />
                             <h2>sex1</h2>
                             <p>sex2</p>
                         </header>
-                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, .</p>
+                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3,
+                            sexo3, sexo3, .</p>
                     </div>
                 </section>
             </div>
-			<div class="col-4 col-12-medium">
+            <div class="col-4 col-12-medium">
                 <!-- Box -->
                 <section class="box feature">
-                    
+
                     <a href="pagina_destino.html" class="image featured">
                         <img src="images/pic01.jpg" alt="" />
                     </a>
@@ -99,14 +131,15 @@
                             <h2>sex1</h2>
                             <p>sex2</p>
                         </header>
-                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, .</p>
+                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3,
+                            sexo3, sexo3, .</p>
                     </div>
                 </section>
             </div>
-			<div class="col-4 col-12-medium">
+            <div class="col-4 col-12-medium">
                 <!-- Box -->
                 <section class="box feature">
-                    
+
                     <a href="pagina_destino.html" class="image featured">
                         <img src="images/pic01.jpg" alt="" />
                     </a>
@@ -115,129 +148,133 @@
                             <h2>sex1</h2>
                             <p>sex2</p>
                         </header>
-                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, .</p>
+                        <p>sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3, sexo3,
+                            sexo3, sexo3, .</p>
                     </div>
                 </section>
             </div>
-            
+
         </div>
     </div>
 </div>
 
 <!-- Main -->
 <div id="main-wrapper">
-	<div class="container">
-		<div class="row gtr-200">
-			<div class="col-4 col-12-medium">
+    <div class="container">
+        <div class="row gtr-200">
+            <div class="col-4 col-12-medium">
 
-				
-				<div id="sidebar">
-					<section class="widget thumbnails">
-						<h3>Te puede interesar...</h3>
-						<div class="grid">
-							<div class="row gtr-50">
-								<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg"
-											alt="" /></a></div>
-								<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg"
-											alt="" /></a></div>
-								<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg"
-											alt="" /></a></div>
-								<div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg"
-											alt="" /></a></div>
-							</div>
-						</div>
-						<a href="#" class="button icon fa-file-alt">More</a>
-					</section>
-				</div>
 
-			</div>
-			<div class="col-8 col-12-medium imp-medium">
+                <div id="sidebar">
+                    <section class="widget thumbnails">
+                        <h3>Te puede interesar...</h3>
+                        <div class="grid">
+                            <div class="row gtr-50">
+                                <div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg"
+                                            alt="" /></a></div>
+                                <div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg"
+                                            alt="" /></a></div>
+                                <div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg"
+                                            alt="" /></a></div>
+                                <div class="col-6"><a href="#" class="image fit"><img src="images/pic07.jpg"
+                                            alt="" /></a></div>
+                            </div>
+                        </div>
+                        <a href="#" class="button icon fa-file-alt">More</a>
+                    </section>
+                </div>
 
-				
-				<div id="content">
-					<section class="last">
-						<h2>QUIERO PENE?</h2>
-						<p>SI.</p>
-						<p>QUIERO PENE.</p>
-						<a href="#" class="button icon solid fa-arrow-circle-right">VER MAS OMG :O</a>
-					</section>
-				</div>
+            </div>
+            <div class="col-8 col-12-medium imp-medium">
 
-			</div>
-		</div>
-	</div>
+
+                <div id="content">
+                    <section class="last">
+                        <h2>QUIERO PENE?</h2>
+                        <p>SI.</p>
+                        <p>QUIERO PENE.</p>
+                        <a href="#" class="button icon solid fa-arrow-circle-right">VER MAS OMG :O</a>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Footer -->
 <div id="footer-wrapper">
-	<footer id="footer" class="container">
-		<div class="row">
-			<div class="col-3 col-6-medium col-12-small">
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="col-3 col-6-medium col-12-small">
 
-				
-				<section class="widget links">
-					<h3>nose3</h3>
-					<ul class="style2">
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-					</ul>
-				</section>
 
-			</div>
-			<div class="col-3 col-6-medium col-12-small">
+                <section class="widget links">
+                    <h3>nose3</h3>
+                    <ul class="style2">
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                    </ul>
+                </section>
 
-				<!-- Links -->
-				<section class="widget links">
-					<h3>nose3</h3>
-					<ul class="style2">
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-					</ul>
-				</section>
+            </div>
+            <div class="col-3 col-6-medium col-12-small">
 
-			</div>
-			<div class="col-3 col-6-medium col-12-small">
+                <!-- Links -->
+                <section class="widget links">
+                    <h3>nose3</h3>
+                    <ul class="style2">
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                    </ul>
+                </section>
 
-				
-				<section class="widget links">
-					<h3>nose3</h3>
-					<ul class="style2">
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-						<li><a href="#">aaaaaaaaaaa</a></li>
-					</ul>
-				</section>
+            </div>
+            <div class="col-3 col-6-medium col-12-small">
 
-			</div>
-			<div class="col-3 col-6-medium col-12-small">
 
-				
-				<section class="widget contact last">
-					<h3>Contactanos</h3>
-					<ul>
-						<li><a href="https://twitter.com/i/flow/login" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
-						</li>
-						<li><a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
-						</li>
-						<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
-						</li>
+                <section class="widget links">
+                    <h3>nose3</h3>
+                    <ul class="style2">
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                        <li><a href="#">aaaaaaaaaaa</a></li>
+                    </ul>
+                </section>
 
-					</ul>
+            </div>
+            <div class="col-3 col-6-medium col-12-small">
 
-				</section>
 
-			</div>
-		</div>
-		
-	</footer>
+                <section class="widget contact last">
+                    <h3>Contactanos</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/i/flow/login" class="icon brands fa-twitter"><span
+                                    class="label">Twitter</span></a>
+                        </li>
+                        <li><a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr"
+                                class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span
+                                    class="label">Instagram</span></a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </div>
+        </div>
+
+    </footer>
 </div>
 
 </div>
@@ -250,6 +287,7 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/validacionesLogin.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 

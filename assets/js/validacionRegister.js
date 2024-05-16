@@ -9,6 +9,7 @@ $(document).ready(function () {
         var nombre = $("#name").val();
         var correo = $("#email").val();
         var contraseña = $("#pass").val();
+        var ccontraseña =$("#cpass").val();
         var isValid = true;
 
         if (nombre == "") {
@@ -23,10 +24,16 @@ $(document).ready(function () {
             $("#passwordError").text("El campo contraseña es obligatorio").show();
             isValid = false;
         }
-
+        if (contraseña !==ccontraseña ) {
+            $("#CpasswordError").text("Las contraseñas no coinciden").show();
+            isValid = false;
+        }
         // Si todos los campos son válidos, envía el formulario
         if (isValid) {
+            
             $("#registrationForm").submit();
+            
         }
+        
     });
 });

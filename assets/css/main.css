@@ -9,6 +9,9 @@
 .navbar .nav-link, .navbar-brand  {
     color: #fff !important;
 }
+h2{
+    text-align: center;
+}
 
 body {
     background: linear-gradient(to right, #c4c4c4, #1f1e1e);
